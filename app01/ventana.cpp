@@ -16,19 +16,19 @@ void Ventana::init()
 		fprintf(stderr, "ERROR: al iniciar glfw");
 		glfwTerminate();
 	}
-	glfwSetErrorCallback(Ventana::error_callback); /* set the callback func */
+	glfwSetErrorCallback(Ventana::error_callback); 		 	/* set the callback func */
 
 	*ventana = glfwCreateWindow(alto, ancho, *nombre, NULL, NULL); /* create it */
 
 	if (!ventana)
 	{
 		fprintf(stderr, "ERROR al crear la ventana");
-		glfwTerminate();  /* end of glfw */
+		glfwTerminate();  		  /* end of glfw */
 	}
 	/* set key controller and main context*/
 	glfwSetKeyCallback(*ventana, key_callback);
-	glfwMakeContextCurrent(*ventana);  /*set main context in "ventana" -> smart pointer (GLWFwindow*)*/
-	glfwSwapInterval(1);  /*intervar for swap it */
+	glfwMakeContextCurrent(*ventana);         /*set main context in "ventana" -> smart pointer (GLWFwindow*)*/
+	glfwSwapInterval(1);                      /*intervar for swap it */
 
 	while (!glfwWindowShouldClose(*ventana))
 	{
@@ -36,7 +36,7 @@ void Ventana::init()
 
 		glfwSwapBuffers(*ventana);
 
-		glfwPollEvents(); /*  to control the window this is important!*/
+		glfwPollEvents();         /*  to control the window this is important!*/
 	}
 
 	glfwDestroyWindow(*ventana); 
@@ -51,6 +51,6 @@ void Ventana::error_callback(int error, const char* msg) {
 void Ventana::key_callback(GLFWwindow* target, int key, int scancode, int actions, int mods)
 {
 	if (key == GLFW_KEY_ESCAPE && actions == GLFW_PRESS) {
-		glfwSetWindowShouldClose(target, GLFW_TRUE); /* close window if escape is pressed*/
+		glfwSetWindowShouldClose(target, GLFW_TRUE);        /* close window if escape is pressed*/
 	}
 }
