@@ -1,5 +1,0 @@
-﻿  Main.cpp
-  ventana.cpp
-  ventana.hpp
-  Generando código...
-LINK : fatal error LNK1104: no se puede abrir el archivo 'glew32s.lib'

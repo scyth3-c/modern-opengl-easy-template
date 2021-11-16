@@ -1,3 +1,8 @@
+# dependences
+Debug
+x64
+.vs
+
 # Prerequisites
 *.d
 

@@ -1,3 +1,0 @@
-C:\Users\bhert\source\repos\OpenGL\app01\x64\Debug\app01.exe
-C:\Users\bhert\source\repos\OpenGL\modern-opengl\app01\x64\Debug\app01.exe
-C:\Users\bhert\Escritorio\modern-opengl-easy-template\app01\x64\Debug\app01.exe
