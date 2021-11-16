@@ -1,36 +1,5 @@
 ﻿  Main.cpp
-Main.obj : error LNK2019: símbolo externo _glewInit@0 sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwInit sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwTerminate sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwWindowHint sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwCreateWindow sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwWindowShouldClose sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwGetFramebufferSize sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwPollEvents sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwMakeContextCurrent sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2019: símbolo externo _glfwSwapBuffers sin resolver al que se hace referencia en la función _main
-Main.obj : error LNK2001: símbolo externo ___glewBindBuffer sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewBufferData sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewDeleteBuffers sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGenBuffers sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewAttachShader sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewCompileShader sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewCreateProgram sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewCreateShader sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewDeleteShader sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewEnableVertexAttribArray sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGetProgramInfoLog sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGetProgramiv sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGetShaderInfoLog sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGetShaderiv sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewLinkProgram sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewShaderSource sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewUseProgram sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewVertexAttribPointer sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewBindVertexArray sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewDeleteVertexArrays sin resolver
-Main.obj : error LNK2001: símbolo externo ___glewGenVertexArrays sin resolver
-Main.obj : error LNK2001: símbolo externo _glewExperimental sin resolver
-C:\Users\bhert\source\repos\OpenGL\app01\\..\external\GLEW\lib\Release\x64\glew32s.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
-C:\Users\bhert\source\repos\OpenGL\app01\\..\external\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: el tipo de máquina de biblioteca 'x64' está en conflicto con el tipo de máquina de destino 'x86'
-C:\Users\bhert\source\repos\OpenGL\app01\Debug\app01.exe : fatal error LNK1120: 32 externos sin resolver
+  ventana.cpp
+  ventana.hpp
+  Generando código...
+LINK : fatal error LNK1104: no se puede abrir el archivo 'glew32s.lib'

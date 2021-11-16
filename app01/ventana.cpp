@@ -34,8 +34,8 @@ void Ventana::init()
 	{
         /* main loop*/
 
-		glfwSwapBuffers(*ventana);
 
+		glfwSwapBuffers(*ventana);
 		glfwPollEvents();         /*  to control the window this is important!*/
 	}
 
